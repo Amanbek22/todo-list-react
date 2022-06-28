@@ -1,19 +1,5 @@
 import "./Todo.css";
 
-function test(str) {
-  console.log(str);
-}
-
-test("Hello 1"); // Hello 1
-test("Hello 2"); // Hello 2
-test("Hello Aziz"); // Hello Aziz
-
-function testCom(props) {
-  console.log(props.name);
-}
-
-testCom({ name: "Aman" }); // "Aman"
-
 // props = { text: "Aziz" }
 const Todo = (props) => {
   const onDelete = () => {
