@@ -2,11 +2,10 @@ import "./Header.css"
 
 
 export function Header(props) {
-  console.log(props);
-
+  const result = props.state.filter((item) => item.status)
   return (
     <header className="Header_wrapper">
-        Todos (0 / 0)
+        Todos ({result.length} / {props.state.length})
     </header>
   );
 }
