@@ -28,3 +28,9 @@
   margin-top: 250px;
   width: 250px;
 }
+
+@media (max-width: 768px) {
+  .App {
+    width: 95%;
+  }
+}
